@@ -1,64 +1,55 @@
-
 body {
-    margin: 0;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    background-color: #fff;
-    color: #111;
+  font-family: 'Segoe UI', sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #fffbe6;
+  color: #0d3b1f;
+  text-align: center;
 }
 
 header {
-    background-color: #007847; /* Green */
-    padding: 1em;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    color: white;
+  background-color: #007847; /* South African green */
+  color: white;
+  padding: 20px 0;
 }
 
-header .logo {
-    font-size: 1.5em;
-    font-weight: bold;
+.logo {
+  width: 120px;
+  height: auto;
 }
 
-nav a {
-    color: white;
-    margin-left: 1em;
-    text-decoration: none;
+.tagline {
+  font-style: italic;
+  color: #ffd100; /* South African yellow */
 }
 
-.hero {
-    background-color: #ffb612; /* Yellow/Gold */
-    color: #111;
-    text-align: center;
-    padding: 3em 1em;
+main {
+  padding: 20px;
 }
 
-.container {
-    padding: 2em 1em;
-    text-align: center;
+section {
+  margin: 30px 0;
+}
+
+a {
+  color: #007847;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.qr {
+  width: 150px;
+  height: auto;
+  margin: 10px 0;
 }
 
 .menu-image {
-    max-width: 100%;
-    height: auto;
-    border: 2px solid #111;
-}
-
-.qr-code {
-    max-width: 200px;
-    height: auto;
-    margin-top: 1em;
-}
-
-footer {
-    background-color: #de3831; /* Red */
-    color: white;
-    text-align: center;
-    padding: 1em 0;
-    margin-top: 2em;
-}
-
-footer .socials {
-    margin-top: 0.5em;
-    color: #fff;
+  width: 90%;
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
 }
