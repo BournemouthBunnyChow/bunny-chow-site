@@ -1,96 +1,96 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
 
 body {
-  margin: 0;
-  font-family: 'Montserrat', sans-serif;
-  color: #0f0f0f;
-  background-color: #fffdf7;
-  text-align: center;
+  font-family: 'Helvetica Neue', sans-serif;
+  color: #2E2E2E;
+  background-color: #fff;
+  line-height: 1.6;
 }
 
-.hero {
-  background: url('images/shop_banner.jpeg') center/cover no-repeat;
-  height: 100vh;
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: auto;
+  padding: 2rem 0;
+}
+
+header {
+  background: #FFB400; /* Vibrant yellow */
+  padding: 1rem 0;
+}
+
+header .container {
   display: flex;
+  justify-content: space-between;
   align-items: center;
-  justify-content: center;
-  position: relative;
-}
-
-.overlay {
-  background-color: rgba(0, 0, 0, 0.65);
-  padding: 40px;
-  border-radius: 12px;
-  color: white;
 }
 
 .logo {
-  width: 120px;
-  margin-bottom: 10px;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
 }
 
-.hero h1 {
-  font-size: 3em;
-  margin: 0.2em 0;
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
-.hero p {
-  font-size: 1.3em;
-  margin-bottom: 1.5em;
-  color: #ffce00;
+nav a {
+  text-decoration: none;
+  color: #2E2E2E;
+  font-weight: bold;
 }
 
-.button {
-  background-color: #007847;
+.hero {
+  background: url('images/shop_banner.jpeg') no-repeat center center/cover;
   color: white;
-  padding: 12px 28px;
-  border: none;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 1em;
+  height: 80vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
 }
 
-.button:hover {
-  background-color: #005a33;
+.hero-text h1 {
+  font-size: 4rem;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 1rem;
 }
 
-.info-section, .menu-section {
-  padding: 60px 20px;
+.hero-text p {
+  font-size: 1.5rem;
+  margin-top: 1rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 0.5rem;
 }
 
-h2 {
-  font-size: 2em;
-  margin-bottom: 0.5em;
-  color: #007847;
+.about {
+  background: #007A4D; /* South African green */
+  color: white;
+  text-align: center;
+  padding: 4rem 0;
 }
 
-.qr-code {
-  width: 160px;
-  margin: 20px auto;
+.menu, .location {
+  text-align: center;
+  padding: 3rem 0;
 }
 
-.menu-image {
-  width: 90%;
-  max-width: 700px;
-  margin: 20px auto;
-  display: block;
-  border-radius: 8px;
-  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-}
-
-.link {
-  color: #007847;
-  font-weight: bold;
-  text-decoration: none;
-}
-
-.link:hover {
-  text-decoration: underline;
+.menu img, .location img.qr {
+  max-width: 90%;
+  height: auto;
+  margin-top: 1rem;
 }
 
 footer {
-  background-color: #007847;
+  background: #B22222; /* South African red */
   color: white;
-  padding: 20px;
-  margin-top: 60px;
+  text-align: center;
+  padding: 1rem 0;
 }
