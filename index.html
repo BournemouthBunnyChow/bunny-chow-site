@@ -2,14 +2,19 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Bunny Chow</title>
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
+
   <header>
-    <div class="container">
-      <img src="images/bunny_logo.png" alt="Bunny Chow Logo" class="logo" />
+    <div class="container header-flex">
+      <img src="images/logo.png" alt="Bunny Chow Logo" class="logo" />
+      <div class="title-block">
+        <h1>Bunny Chow</h1>
+        <p>Authentic South African Cuisine</p>
+      </div>
       <nav>
         <ul>
           <li><a href="#menu">Menu</a></li>
@@ -20,16 +25,21 @@
   </header>
 
   <section class="hero">
-    <div class="hero-text">
-      <h1>Bunny Chow</h1>
-      <p>Authentic South African Cuisine</p>
-    </div>
+    <div class="hero-image"></div>
   </section>
 
   <section class="about">
-    <div class="container">
-      <h2>Our Story</h2>
-      <p>A taste of Durban, right in Bournemouth. We serve authentic Bunny Chow and other South African flavours that celebrate our culture and cuisine.</p>
+    <div class="container about-flex">
+      <div class="about-text">
+        <h2>Our Story</h2>
+        <p>
+          A taste of Durban, right in Bournemouth. We serve authentic Bunny Chow and other South African flavours that celebrate our culture and cuisine. 
+          Everything we serve is a tribute to our roots — spicy, hearty, and made with love. More text coming soon...
+        </p>
+      </div>
+      <div class="about-image">
+        <img src="images/about.jpeg" alt="South African food" />
+      </div>
     </div>
   </section>
 
@@ -44,8 +54,14 @@
     <div class="container">
       <h2>Visit Us</h2>
       <p>7 Stafford Road, Bournemouth, BH1 1JH, England</p>
-      <img src="images/bunny_chow_qr.png" alt="Map QR Code" class="qr" />
-      <p><a href="https://maps.google.com/?q=7+Stafford+Road,+Bournemouth,+BH1+1JH,+England" target="_blank">Get Directions</a></p>
+    </div>
+
+    <div class="map-container">
+      <iframe 
+        src="https://www.google.com/maps?q=7+Stafford+Road,+Bournemouth,+BH1+1JH,+England&output=embed" 
+        width="100%" height="400" style="border:0;" allowfullscreen loading="lazy">
+      </iframe>
+      <img src="images/qr.png" alt="QR Code" class="qr-on-map" />
     </div>
   </section>
 
@@ -54,5 +70,6 @@
       <p>&copy; 2025 Bunny Chow. All rights reserved.</p>
     </div>
   </footer>
+
 </body>
 </html>
